@@ -19,7 +19,7 @@ engine.setProperty('voices', voices[0].id)
 def speak(audio):
 	engine.say(audio)
 	print(audio)
-	engine.runAndWait
+	engine.runAndWait()
 
 # To Convert Voice Into Text
 def takecommand():
